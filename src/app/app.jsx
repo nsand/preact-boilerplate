@@ -1,4 +1,4 @@
-import { h, render, Component } from 'preact';
+import { h, Component } from 'preact';
 
 export default class Clock extends Component {
 	constructor() {
@@ -14,6 +14,3 @@ export default class Clock extends Component {
       return <span>{ time }</span>;
   }
 }
-
-// render an instance of Clock into <body>:
-render(<Clock />, document.body);
