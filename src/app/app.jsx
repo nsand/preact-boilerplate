@@ -10,7 +10,7 @@ export default class Clock extends Component {
 			this.setState({time: new Date().toLocaleTimeString()});
 		}, 1000);
 	}
-  render({}, {time}) {
-      return <span>{ time }</span>;
-  }
+	render({}, {time}) {
+		return <span>{ time }</span>;
+	}
 }
